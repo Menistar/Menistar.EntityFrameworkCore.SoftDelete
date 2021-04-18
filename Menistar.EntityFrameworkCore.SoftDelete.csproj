@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Melvin Nijholt</Authors>
+    <Company>Menistar</Company>
+    <Version>5.0.1</Version>
+    <Description>Extension for Entity Framework Core to implement soft delete for specific entities without using interfaces.</Description>
+    <PackageLicenseExpression>MIT-0</PackageLicenseExpression>
+    <PackageIcon>menistar.png</PackageIcon>
+    <PackageTags>softdelete soft delete entity framework core entityframeworkcore efcore extension</PackageTags>
+    <Copyright>Copyright 2021 Menistar</Copyright>
+    <Product></Product>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/Menistar/Menistar.EntityFrameworkCore.SoftDelete.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/Menistar/Menistar.EntityFrameworkCore.SoftDelete</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="menistar.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
